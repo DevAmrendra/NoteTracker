@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+.main-bg {
+    background-color: #424240;
+    min-height: 100vh;
+}
+
+.material-symbols-outlined {
+    margin-right: 5px;
+}
+
+.add-note {
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+    height: 50px;
+    width: 50px;
+
+    border: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    transition-duration: 0.4s;
+}
+
+.add-note:hover {
+    color: #ffc107;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.cardContent {
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.note-container {
+    background: transparent;
+    border-radius: 10px;
+    width: 50%;
+    height:50%;
+    padding: 25px;
+    background-color: white;
+    position: fixed;
+    right: 25%;
+    left: 25%;
+    top: 25%;
+    bottom: 25%;
+    z-index: 1;
+    
+}
+
+.inputTitleNoteBox {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.3em;
+    margin: 10px;
+    border-bottom: 2px solid #000000 ;
+}
+.button-add-note{
+    height: 30px;
+    width: 90px;
+    border-color: #ffc107;
+    color: #000000;
+    cursor: pointer;
+    background: transparent;
+    transition-duration: 0.4s;
+    outline: none;
+}
+.button-add-note:hover{
+    background-color: #ffc107;
+    color: white;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+}
+.model-close-button {
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    padding-left: 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    transition-duration: 0.4s;
+}
+
+.model-close-button:hover {
+    color: #ffc107;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.delete-button {
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    left:90%;
+    transition-duration: 0.4s;
+}
+
+.delete-button:hover {
+    color: #ffc107;
+}
+
+.navbar{
+    height: 60px;
+}
