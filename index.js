@@ -80,7 +80,7 @@ function displayNotes(title, note, date,id) {
 
     let noteCard = document.createElement("div");
     noteCard.setAttribute("id", id)
-    noteCard.classList.add("col-6", "col-md-4", "col-lg-3", "mt-5");
+    noteCard.classList.add("col-12", "col-md-4", "col-lg-3", "mt-5");
     let cardContent = document.createElement("div");
     let cardParagraph = document.createElement("p");
     let noteHeading = document.createElement("h3");
