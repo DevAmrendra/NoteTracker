@@ -55,7 +55,7 @@
     height:50%;
     padding: 25px;
     background-color: white;
-    position: absolute;
+    position: fixed;
     right: 25%;
     left: 25%;
     top: 25%;
@@ -142,7 +142,7 @@
         height:50%;
         padding: 25px;
         background-color: white;
-        position: absolute;
+        position: fixed;
         left: 12.5%;
         top: 25%;
         bottom: 25%;
