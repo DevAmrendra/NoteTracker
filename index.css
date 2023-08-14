@@ -52,7 +52,7 @@
     background: transparent;
     border-radius: 10px;
     width: 50%;
-    height:50%;
+    height: 50%;
     padding: 25px;
     background-color: white;
     position: fixed;
@@ -61,7 +61,7 @@
     top: 25%;
     bottom: 25%;
     z-index: 1;
-    
+
 }
 
 .inputTitleNoteBox {
@@ -71,9 +71,10 @@
     outline: none;
     font-size: 1.3em;
     margin: 10px;
-    border-bottom: 2px solid #000000 ;
+    border-bottom: 2px solid #000000;
 }
-.button-add-note{
+
+.button-add-note {
     height: 30px;
     width: 90px;
     border-color: #ffc107;
@@ -83,15 +84,18 @@
     transition-duration: 0.4s;
     outline: none;
 }
-.button-add-note:hover{
+
+.button-add-note:hover {
     background-color: #ffc107;
     color: white;
 }
-.form{
+
+.form {
     height: 100%;
     width: 100%;
     padding-right: 20px;
 }
+
 .model-close-button {
     background: transparent;
     color: black;
@@ -110,11 +114,11 @@
     color: #ffc107;
 }
 
-.show{
+.show {
     display: block;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -122,7 +126,6 @@
     background: transparent;
     cursor: pointer;
     position: relative;
-    left:90%;
     transition-duration: 0.4s;
 }
 
@@ -130,16 +133,21 @@
     color: #ffc107;
 }
 
-.navbar{
+.navbar {
     height: 60px;
 }
 
+.masonry {
+    display: flex;
+  }
+
+
 @media only screen and (max-width: 576px) {
-    .note-container{
+    .note-container {
         background: transparent;
         border-radius: 10px;
         width: 75%;
-        height:50%;
+        height: 50%;
         padding: 25px;
         background-color: white;
         position: fixed;
@@ -148,6 +156,28 @@
         bottom: 25%;
         z-index: 1;
     }
-      
+
 }
 
+.edit-button {
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    padding-right: 15px;
+    transition-duration: 0.4s;
+}
+
+.edit-button:hover {
+    color: #ffc107;
+}
+
+.buttonContainer {
+    text-align: right;
+    width: auto;
+}
+
+.hello{
+    display: flex;
+    flex-wrap: wrap;
+}
