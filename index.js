@@ -12,7 +12,7 @@ let noteLength = document.getElementById("note-length")
 noteForm.classList.add("hide")
 
 function numberOfNotes(data) {
-    noteLength.textContent = `Total Notes: ${data}`
+    noteLength.textContent = `Notes: ${data}`
 }
 
 let data = JSON.parse(localStorage.getItem("localNotesData"))

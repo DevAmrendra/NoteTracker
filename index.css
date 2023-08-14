@@ -137,9 +137,6 @@
     height: 60px;
 }
 
-.masonry {
-    display: flex;
-  }
 
 
 @media only screen and (max-width: 576px) {
@@ -181,3 +178,4 @@
     display: flex;
     flex-wrap: wrap;
 }
+
